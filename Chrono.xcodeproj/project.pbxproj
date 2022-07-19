@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0159C5FC281C8A6600EF86E1 /* ChronoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0159C5FB281C8A6600EF86E1 /* ChronoApp.swift */; };
+		0159C5FE281C8A6600EF86E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0159C5FD281C8A6600EF86E1 /* ContentView.swift */; };
+		0159C600281C8A6900EF86E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0159C5FF281C8A6900EF86E1 /* Assets.xcassets */; };
+		0159C603281C8A6900EF86E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0159C602281C8A6900EF86E1 /* Preview Assets.xcassets */; };
+		0159C60A281CC56E00EF86E1 /* Temps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0159C609281CC56E00EF86E1 /* Temps.swift */; };
+		0159C60C281D9ADD00EF86E1 /* Miniteur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0159C60B281D9ADD00EF86E1 /* Miniteur.swift */; };
+		0159C60E281DADB000EF86E1 /* Chronometre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0159C60D281DADB000EF86E1 /* Chronometre.swift */; };
+		0159C610281DADCE00EF86E1 /* Alarme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0159C60F281DADCE00EF86E1 /* Alarme.swift */; };
+		0191B7F1286120050090907E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0191B7F0286120050090907E /* Persistence.swift */; };
+		0191B7F42861202F0090907E /* Alarm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0191B7F22861202F0090907E /* Alarm.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0159C5F8281C8A6600EF86E1 /* Chrono.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chrono.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0159C5FB281C8A6600EF86E1 /* ChronoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChronoApp.swift; sourceTree = "<group>"; };
+		0159C5FD281C8A6600EF86E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0159C5FF281C8A6900EF86E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0159C602281C8A6900EF86E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0159C609281CC56E00EF86E1 /* Temps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temps.swift; sourceTree = "<group>"; };
+		0159C60B281D9ADD00EF86E1 /* Miniteur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Miniteur.swift; sourceTree = "<group>"; };
+		0159C60D281DADB000EF86E1 /* Chronometre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chronometre.swift; sourceTree = "<group>"; };
+		0159C60F281DADCE00EF86E1 /* Alarme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarme.swift; sourceTree = "<group>"; };
+		0191B7F0286120050090907E /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		0191B7F32861202F0090907E /* Alarm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Alarm.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0159C5F5281C8A6600EF86E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0159C5EF281C8A6600EF86E1 = {
+			isa = PBXGroup;
+			children = (
+				0159C5FA281C8A6600EF86E1 /* Chrono */,
+				0159C5F9281C8A6600EF86E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0159C5F9281C8A6600EF86E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0159C5F8281C8A6600EF86E1 /* Chrono.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0159C5FA281C8A6600EF86E1 /* Chrono */ = {
+			isa = PBXGroup;
+			children = (
+				0159C5FB281C8A6600EF86E1 /* ChronoApp.swift */,
+				0159C5FD281C8A6600EF86E1 /* ContentView.swift */,
+				0159C60F281DADCE00EF86E1 /* Alarme.swift */,
+				0159C60D281DADB000EF86E1 /* Chronometre.swift */,
+				0159C60B281D9ADD00EF86E1 /* Miniteur.swift */,
+				0159C609281CC56E00EF86E1 /* Temps.swift */,
+				0191B7F0286120050090907E /* Persistence.swift */,
+				0191B7F22861202F0090907E /* Alarm.xcdatamodeld */,
+				0159C5FF281C8A6900EF86E1 /* Assets.xcassets */,
+				0159C601281C8A6900EF86E1 /* Preview Content */,
+			);
+			path = Chrono;
+			sourceTree = "<group>";
+		};
+		0159C601281C8A6900EF86E1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0159C602281C8A6900EF86E1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0159C5F7281C8A6600EF86E1 /* Chrono */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0159C606281C8A6900EF86E1 /* Build configuration list for PBXNativeTarget "Chrono" */;
+			buildPhases = (
+				0159C5F4281C8A6600EF86E1 /* Sources */,
+				0159C5F5281C8A6600EF86E1 /* Frameworks */,
+				0159C5F6281C8A6600EF86E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chrono;
+			productName = Chrono;
+			productReference = 0159C5F8281C8A6600EF86E1 /* Chrono.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0159C5F0281C8A6600EF86E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					0159C5F7281C8A6600EF86E1 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 0159C5F3281C8A6600EF86E1 /* Build configuration list for PBXProject "Chrono" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0159C5EF281C8A6600EF86E1;
+			productRefGroup = 0159C5F9281C8A6600EF86E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0159C5F7281C8A6600EF86E1 /* Chrono */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0159C5F6281C8A6600EF86E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0159C603281C8A6900EF86E1 /* Preview Assets.xcassets in Resources */,
+				0159C600281C8A6900EF86E1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0159C5F4281C8A6600EF86E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0159C60E281DADB000EF86E1 /* Chronometre.swift in Sources */,
+				0159C60A281CC56E00EF86E1 /* Temps.swift in Sources */,
+				0159C5FE281C8A6600EF86E1 /* ContentView.swift in Sources */,
+				0191B7F1286120050090907E /* Persistence.swift in Sources */,
+				0159C610281DADCE00EF86E1 /* Alarme.swift in Sources */,
+				0159C60C281D9ADD00EF86E1 /* Miniteur.swift in Sources */,
+				0159C5FC281C8A6600EF86E1 /* ChronoApp.swift in Sources */,
+				0191B7F42861202F0090907E /* Alarm.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0159C604281C8A6900EF86E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0159C605281C8A6900EF86E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0159C607281C8A6900EF86E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Chrono/Preview Content\"";
+				DEVELOPMENT_TEAM = D5798DRJ9K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mulaja.andre.Chrono;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0159C608281C8A6900EF86E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Chrono/Preview Content\"";
+				DEVELOPMENT_TEAM = D5798DRJ9K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mulaja.andre.Chrono;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0159C5F3281C8A6600EF86E1 /* Build configuration list for PBXProject "Chrono" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0159C604281C8A6900EF86E1 /* Debug */,
+				0159C605281C8A6900EF86E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0159C606281C8A6900EF86E1 /* Build configuration list for PBXNativeTarget "Chrono" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0159C607281C8A6900EF86E1 /* Debug */,
+				0159C608281C8A6900EF86E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0191B7F22861202F0090907E /* Alarm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0191B7F32861202F0090907E /* Alarm.xcdatamodel */,
+			);
+			currentVersion = 0191B7F32861202F0090907E /* Alarm.xcdatamodel */;
+			path = Alarm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0159C5F0281C8A6600EF86E1 /* Project object */;
+}
